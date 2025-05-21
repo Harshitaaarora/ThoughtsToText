@@ -1,0 +1,76 @@
+Initializing EEG processor...
+Found 14 .tar.bz2 files. Processing...
+Found 14 .tar.bz2 files to process
+Extracting data for subject MM05...
+Subject MM05 already processed. Skipping.
+Extracting data for subject MM08...
+Subject MM08 already processed. Skipping.
+Extracting data for subject MM09...
+Subject MM09 already processed. Skipping.
+Extracting data for subject MM10...
+Subject MM10 already processed. Skipping.
+Extracting data for subject MM11...
+Subject MM11 already processed. Skipping.
+Extracting data for subject MM12...
+Subject MM12 already processed. Skipping.
+Extracting data for subject MM14...
+Subject MM14 already processed. Skipping.
+Extracting data for subject MM15...
+Subject MM15 already processed. Skipping.
+Extracting data for subject MM16...
+Subject MM16 already processed. Skipping.
+Extracting data for subject MM18...
+Subject MM18 already processed. Skipping.
+Extracting data for subject MM19...
+Subject MM19 already processed. Skipping.
+Extracting data for subject MM20...
+Subject MM20 already processed. Skipping.
+Extracting data for subject MM21...
+Subject MM21 already processed. Skipping.
+Extracting data for subject P02...
+Subject P02 already processed. Skipping.
+Looking for subjects in data directory: data
+Data directory exists: True
+Processed directory: data\processed
+Processed directory exists: True
+Found 14 JSON files in processed directory
+  - MM05.json
+  - MM08.json
+  - MM09.json
+  - MM10.json
+  - MM11.json
+  - MM12.json
+  - MM14.json
+  - MM15.json
+  - MM16.json
+  - MM18.json
+  - MM19.json
+  - MM20.json
+  - MM21.json
+  - P02.json
+Found 0 MAT files in data directory
+Found 14 TAR.BZ2 files in data directory
+  - MM05.tar.bz2
+  - MM08.tar.bz2
+  - MM09.tar.bz2
+  - MM10.tar.bz2
+  - MM11.tar.bz2
+  - MM12.tar.bz2
+  - MM14.tar.bz2
+  - MM15.tar.bz2
+  - MM16.tar.bz2
+  - MM18.tar.bz2
+  - MM19.tar.bz2
+  - MM20.tar.bz2
+  - MM21.tar.bz2
+  - P02.tar.bz2
+Final subject list after deduplication: ['MM05', 'MM05.tar', 'MM08', 'MM08.tar', 'MM09', 'MM09.tar', 'MM10', 'MM10.tar', 'MM11', 'MM11.tar', 'MM12', 'MM12.tar', 'MM14', 'MM14.tar', 'MM15', 'MM15.tar', 'MM16', 'MM16.tar', 'MM18', 'MM18.tar', 'MM19', 'MM19.tar', 'MM20', 'MM20.tar', 'MM21', 'MM21.tar', 'P02', 'P02.tar']
+Available subjects: ['MM05', 'MM05.tar', 'MM08', 'MM08.tar', 'MM09', 'MM09.tar', 'MM10', 'MM10.tar', 'MM11', 'MM11.tar', 'MM12', 'MM12.tar', 'MM14', 'MM14.tar', 'MM15', 'MM15.tar', 'MM16', 'MM16.tar', 'MM18', 'MM18.tar', 'MM19', 'MM19.tar', 'MM20', 'MM20.tar', 'MM21', 'MM21.tar', 'P02', 'P02.tar']
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5001
+Press CTRL+C to quit
+127.0.0.1 - - [15/May/2025 20:23:39] "GET /available_subjects HTTP/1.1" 200 -
+127.0.0.1 - - [15/May/2025 20:23:39] "GET /available_subjects HTTP/1.1" 200 -
+^C
